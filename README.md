@@ -5,6 +5,8 @@ validation data, and reproducibility tools.
 
 **This is the science. The product is at [torrentrisk.com](https://torrentrisk.com).**
 
+Live validation metrics: [torrentrisk.com/validation](https://torrentrisk.com/validation)
+
 ## What's Here
 
 ```
