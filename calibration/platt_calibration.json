@@ -1,0 +1,14 @@
+{
+  "method": "platt_scaling",
+  "description": "Platt scaling recalibration trained on 2,995 USGS binary outcome observations. Apply as: P_calibrated = sigmoid(A * logit_raw + B), where logit_raw is the raw Staley M1 logit (before sigmoid).",
+  "A": 0.3989621597901109,
+  "B": -2.129460055371717,
+  "training_n": 2995,
+  "training_positives": 329,
+  "raw_brier": 0.1590234002095245,
+  "calibrated_brier_cv": 0.08372734230189828,
+  "raw_auc": 0.8485453430226858,
+  "calibrated_auc_cv": 0.8355641341946429,
+  "equation": "P_calibrated = sigmoid(0.398962 * logit_raw + -2.129460)",
+  "reference": "Platt (1999), 'Probabilistic Outputs for Support Vector Machines'"
+}
