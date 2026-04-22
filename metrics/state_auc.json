@@ -1,0 +1,50 @@
+{
+  "updated": "2026-04-22",
+  "model": "Staley et al. (2016) M1 logistic regression",
+  "metric": "Area Under ROC Curve (AUC)",
+  "level": "sub-watershed basin",
+  "states": {
+    "CA": {
+      "auc": 0.532,
+      "n_observations": 15239,
+      "status": "modest",
+      "note": "Pooled Graber 2023/2024. Per-fire: Thomas 0.584, Butte 0.574, Briceburg 0.500."
+    },
+    "AZ": {
+      "auc": 0.649,
+      "n_observations": 2400,
+      "status": "pass_moderate",
+      "note": "5 fires matched (Pinal, Museum, Woodbury, Flag, Pipeline)."
+    },
+    "CO": {
+      "auc": 0.682,
+      "n_observations": 25,
+      "status": "pass_moderate",
+      "note": "Cameron Peak 0.843, Spring Creek 0.375 (8 obs)."
+    },
+    "NM": {
+      "auc": 0.707,
+      "n_observations": 6180,
+      "status": "pass_strong",
+      "note": "Buzzard, Tadpole, McBride, Whitewater-Baldy."
+    },
+    "WA": {
+      "auc": 0.5,
+      "n_observations": 586,
+      "status": "fail",
+      "note": "Muckamuck 0.726 good; Cub Creek 2 inverting (0.461). PNW maritime outside M1 domain."
+    },
+    "OR": {
+      "auc": 0.566,
+      "n_observations": 1604,
+      "status": "below_threshold",
+      "note": "Holiday Farm 0.71; others near random (shallow landslides != runoff)."
+    },
+    "UT": {
+      "auc": null,
+      "n_observations": 5,
+      "status": "data_gap",
+      "note": "5 obs all positive; needs UGS + PFDF ground-truth negatives."
+    }
+  }
+}

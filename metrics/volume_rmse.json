@@ -1,0 +1,112 @@
+{
+  "updated": "2026-04-22",
+  "method": "Gartner et al. (2014) + Santi et al. (2008) geometric mean",
+  "dataset": "Gorr et al. (2024) field-measured volumes, southwest US",
+  "observations_total": 227,
+  "observations_matched": 151,
+  "fires_represented": 14,
+  "rmse_ln_volume": 1.185,
+  "storm_scenario": "10-year return period, 1-hour duration (NOAA Atlas 14)",
+  "match_radius_km": 5.0,
+  "reference": "Gorr, A.N., McGuire, L.A., & Youberg, A.M. (2024). Empirical Models for Postfire Debris-Flow Volume in the Southwest United States. JGR Earth Surface. doi:10.1029/2024JF007825",
+  "per_fire": [
+    {
+      "fire": "Apple",
+      "year": 2020,
+      "n": 1,
+      "median_pred_obs": 0.05,
+      "ln_rmse": 3.088
+    },
+    {
+      "fire": "Buzzard",
+      "year": 2018,
+      "n": 5,
+      "median_pred_obs": 3.23,
+      "ln_rmse": 1.074
+    },
+    {
+      "fire": "Cameron Peak",
+      "year": 2020,
+      "n": 14,
+      "median_pred_obs": 4.47,
+      "ln_rmse": 2.522
+    },
+    {
+      "fire": "Dixie",
+      "year": 2021,
+      "n": 2,
+      "median_pred_obs": 3.17,
+      "ln_rmse": 0.963
+    },
+    {
+      "fire": "Farmington",
+      "year": 2003,
+      "n": 3,
+      "median_pred_obs": 1.08,
+      "ln_rmse": 1.249
+    },
+    {
+      "fire": "Frye",
+      "year": 2017,
+      "n": 1,
+      "median_pred_obs": 0.24,
+      "ln_rmse": 1.433
+    },
+    {
+      "fire": "Grizzly Creek",
+      "year": 2020,
+      "n": 19,
+      "median_pred_obs": 0.39,
+      "ln_rmse": 1.805
+    },
+    {
+      "fire": "Museum",
+      "year": 2019,
+      "n": 4,
+      "median_pred_obs": 2.88,
+      "ln_rmse": 1.796
+    },
+    {
+      "fire": "Old",
+      "year": 2003,
+      "n": 17,
+      "median_pred_obs": 0.09,
+      "ln_rmse": 3.133
+    },
+    {
+      "fire": "Schultz",
+      "year": 2010,
+      "n": 11,
+      "median_pred_obs": 0.3,
+      "ln_rmse": 1.719
+    },
+    {
+      "fire": "Station",
+      "year": 2009,
+      "n": 45,
+      "median_pred_obs": 0.81,
+      "ln_rmse": 1.667
+    },
+    {
+      "fire": "Tadpole",
+      "year": 2020,
+      "n": 4,
+      "median_pred_obs": 14.14,
+      "ln_rmse": 2.71
+    },
+    {
+      "fire": "Telegraph",
+      "year": 2021,
+      "n": 4,
+      "median_pred_obs": 4.36,
+      "ln_rmse": 1.396
+    },
+    {
+      "fire": "Thomas",
+      "year": 2017,
+      "n": 5,
+      "median_pred_obs": 0.05,
+      "ln_rmse": 3.04
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+state,fire,year,auc,n_obs,source
+CA,Thomas,2018,0.584,,Graber 2023/2024
+CA,Butte,2018,0.574,,Graber 2023/2024
+CA,Briceburg,2019,0.5,,Graber 2023/2024
+AZ,Pinal,2017,,,Graber 2023/2024
+AZ,Museum,2019,,,Gorr 2024
+AZ,Woodbury,2019,,,Graber 2023/2024
+AZ,Flag,2010,,,Graber 2023/2024
+AZ,Pipeline,2017,,,Graber 2023/2024
+CO,Cameron Peak,2020,0.843,17,Graber 2023/2024
+CO,Spring Creek,2018,0.375,8,Graber 2023/2024
+NM,Buzzard,2018,,,Gorr 2024
+NM,Tadpole,2020,,,Graber 2023/2024
+NM,McBride,2012,,,Graber 2023/2024
+NM,Whitewater-Baldy,2012,,,Graber 2023/2024
+WA,Muckamuck,2015,0.726,,Graber 2023/2024
+WA,Cub Creek 2,2015,0.461,,Graber 2023/2024
+OR,Holiday Farm,2020,0.71,,Graber 2023/2024
